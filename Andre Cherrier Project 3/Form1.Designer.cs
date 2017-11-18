@@ -239,7 +239,6 @@
             this.couponTextBox.Name = "couponTextBox";
             this.couponTextBox.Size = new System.Drawing.Size(100, 20);
             this.couponTextBox.TabIndex = 19;
-            this.couponTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // itemDescriptionTextBox
             // 
@@ -250,7 +249,6 @@
             this.itemDescriptionTextBox.Size = new System.Drawing.Size(322, 43);
             this.itemDescriptionTextBox.TabIndex = 20;
             this.itemDescriptionTextBox.Visible = false;
-            this.itemDescriptionTextBox.TextChanged += new System.EventHandler(this.itemDescriptionTextBox_TextChanged);
             // 
             // quantityTextBox
             // 
@@ -258,7 +256,6 @@
             this.quantityTextBox.Name = "quantityTextBox";
             this.quantityTextBox.Size = new System.Drawing.Size(32, 20);
             this.quantityTextBox.TabIndex = 21;
-            this.quantityTextBox.TextChanged += new System.EventHandler(this.quantityTextBox_TextChanged);
             // 
             // quantityLabel
             // 
@@ -290,7 +287,6 @@
             this.subTotalCartGridView.Size = new System.Drawing.Size(614, 160);
             this.subTotalCartGridView.TabIndex = 23;
             this.subTotalCartGridView.Visible = false;
-            this.subTotalCartGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.subTotalCartGridView_CellContentClick);
             // 
             // itemColumn
             // 
@@ -515,7 +511,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "technologyStoreForm";
             this.Text = "Technology Store Form";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.phoneGroupBox.ResumeLayout(false);
             this.computerGroupBox.ResumeLayout(false);
             this.televisionGroupBox.ResumeLayout(false);

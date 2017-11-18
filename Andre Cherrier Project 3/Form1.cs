@@ -80,14 +80,7 @@ namespace Andre_Cherrier_Project_3
             totalGridView.Rows.Add(new object[] { "", "", "" });
             totalGridView.DefaultCellStyle.SelectionBackColor = Color.White;
             totalGridView.DefaultCellStyle.SelectionForeColor = Color.Black;
-
-
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
+                  }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
@@ -211,8 +204,6 @@ namespace Andre_Cherrier_Project_3
             }
         }
 
-
-
         private void televisionListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             //unsubscribing and resubscribing to the event phoneListBox_SelectedIndexChanged so they will deselect when a television item is selected
@@ -234,20 +225,6 @@ namespace Andre_Cherrier_Project_3
             }
         }
 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void itemDescriptionTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void quantityTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         int subTotalQuantity;
         double subTotalPrice;
         int quantity;
@@ -402,16 +379,6 @@ namespace Andre_Cherrier_Project_3
             {
                 MessageBox.Show("Please select a valid quantity.");
             }
-        }
-
-        private void subTotalCartGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void couponLabel_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void removeItem_Click(object sender, EventArgs e)
